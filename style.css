@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+ 
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(90deg, #05246d, #131922);
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px;
+
+}
+
+
+.logo{
+  text-decoration: none;
+  color: #00bcd4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+.navigation a{
+  color: #F8FAFC;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+.navigation a:hover{
+  color:#00bcd4;
+}
+
+/* SECTIONS */
+section {
+  padding: 100px;
+}
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+
+  background-image: 
+    
+     url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M984.53 532.64L994.21 532.64L994.21 542.32L984.53 542.32z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1242.76 370.98a25.91 25.91 0 1 0-3.35 51.71z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1424.85 293.28L1473.22 293.28L1473.22 341.65L1424.85 341.65z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1385.58 162.46 a15.83 15.83 0 1 0 31.66 0 a15.83 15.83 0 1 0 -31.66 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M813.53 544.72L815.55 544.72L815.55 545.86L813.53 545.86z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M961.16 155.72 a54.67 54.67 0 1 0 109.34 0 a54.67 54.67 0 1 0 -109.34 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1003.77 308.02 a44.16 44.16 0 1 0 88.32 0 a44.16 44.16 0 1 0 -88.32 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1177.53 243.56L1177.71 243.56L1177.71 286.77L1177.53 286.77z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1405.73 377.41a23.31 23.31 0 1 0 30.13-35.58z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M243.53 184.66L257.3 184.66L257.3 198.43L243.53 198.43z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M811.23 181.87 a47.24 47.24 0 1 0 94.48 0 a47.24 47.24 0 1 0 -94.48 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1135.51 460.59 a16.09 16.09 0 1 0 32.18 0 a16.09 16.09 0 1 0 -32.18 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M591.52 124.36L619.8 124.36L619.8 169.38L591.52 169.38z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1060.04 454.17L1103.69 454.17L1103.69 460.61L1060.04 460.61z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M126.03 213.18L170.96 213.18L170.96 260.43L126.03 260.43z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M29.43 158.27L40.34 158.27L40.34 169.18L29.43 169.18z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M370.79 6.2a47.79 47.79 0 1 0-3.4 95.52z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M268.74 335.32a21.79 21.79 0 1 0 0.08 43.58z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M786.43 466.6L806.69 466.6L806.69 518.57L786.43 518.57z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M947.84 55.14 a10.73 10.73 0 1 0 21.46 0 a10.73 10.73 0 1 0 -21.46 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M577.76 352.29L604.18 352.29L604.18 378.71L577.76 378.71z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M39.92 208.33a27.56 27.56 0 1 0 29.38 46.64z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M237.78 92.24L287.84 92.24L287.84 142.3L237.78 142.3z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M612.37 2.97L618.88 2.97L618.88 57.63L612.37 57.63z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1302.6 47.16 a14.63 14.63 0 1 0 29.26 0 a14.63 14.63 0 1 0 -29.26 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M395.47 504.81L447.04 504.81L447.04 556.38L395.47 556.38z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M269.22 25.82 a45.18 45.18 0 1 0 90.36 0 a45.18 45.18 0 1 0 -90.36 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1128.75 263.07L1184.24 263.07L1184.24 298.66L1128.75 298.66z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M262.82 131.78L272.44 131.78L272.44 146.6L262.82 146.6z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M760.16 120.2L776.33 120.2L776.33 129.79L760.16 129.79z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M62.13 492a42.03 42.03 0 1 0 20.98-81.41z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M628.13 518.8L641.49 518.8L641.49 532.16L628.13 532.16z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M905.11 272.9L940.47 272.9L940.47 308.26L905.11 308.26z' stroke='%23d3b714'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e"); /* حط الكود بتاعك كامل هنا */
+
+background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* OVERLAY */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(2, 6, 23, 0.7);
+  z-index: 0;
+}
+
+/* LAYOUT */
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+/* TEXT */
+
+
+.text h2 {
+ color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  font: size 1.1em;;
+}
+
+.text span {
+  color: #00bcd4;
+  font-size: 1.2em;
+  
+  
+}
+
+.text h3 {
+    max-width: 500px;
+  margin: 15px 0;
+  line-height: 1.6;
+  color: #ccc;
+  letter-spacing: 1px;
+}
+
+/* BUTTON */
+/* .hero-btn {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 10px 20px;
+  background: #00bcd4;
+  color: #000;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #0199a8;
+} */
+/* From Uiverse.io by zjssun */ 
+#btn {
+    text-decoration: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #fafffe80;
+  text-shadow: none;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: transparent;
+  border: 4px solid #108baa80;
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+#btn:hover,
+#btn:focus {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+    0 0 100px #008cff;
+}
+/* Download CV Button */
+#download-cv {
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  background: #3a6cf4;
+  border: 2px solid #3a6cf4;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-left: 15px; /* لو جنب الزر الثاني */
+}
+
+#download-cv:hover,
+#download-cv:focus {
+  background: #601cfc;
+  border: 2px solid #601cfc;
+  color: #fff;
+}
+
+/* ICONS */
+.icon a {
+  color: white;
+  padding-right:30px ;
+ 
+  font-size: 1.7em;
+  transition: 0.3s;
+}
+
+.icon a:hover {
+  color: #00bcd4;
+}
+
+/* CODE BOX */
+.code-box {
+  background: #0d1117;
+  color: #00ff88;
+  padding: 40px;
+  border-radius: 29px;
+  font-family: monospace;
+  box-shadow: 0 0 25px rgba(0, 255, 136, 0.3);
+  animation: float 3s ease-in-out infinite;
+}
+
+/* FLOAT ANIMATION */
+@keyframes float {
+  0% { transform: translateY(20px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(20px); }
+}
+
+/* BACKGROUND ANIMATION */
+@keyframes bgMove {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+
+
+
+@keyframes move {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(30px); }
+}
+/* ===================== */
+/* TABLET (<= 1023px) */
+/* ===================== */
+@media (max-width: 1023px) {
+
+  header {
+    padding: 15px 30px;
+  }
+
+  .navigation a {
+    padding-left: 15px;
+    font-size: 1em;
+  }
+
+  section {
+    padding: 80px 30px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text h2 {
+    font-size: 28px;
+  }
+
+  .text h3 {
+    font-size: 15px;
+  }
+
+  .code-box {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .icon {
+    margin-top: 20px;
+  }
+}
+
+/* ===================== */
+/* MOBILE (<= 768px) */
+/* ===================== */
+@media (max-width: 768px) {
+
+  header {
+    padding: 10px 20px;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navigation a {
+    padding: 10px;
+    font-size: 0.95em;
+  }
+
+  section {
+    padding: 60px 20px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .text h2 {
+    font-size: 24px;
+  }
+
+  .text h3 {
+    font-size: 14px;
+  }
+
+  /* الأزرار */
+  #btn, #download-cv {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* الكود بوكس */
+  .code-box {
+    padding: 20px;
+    font-size: 12px;
+  }
+
+  /* الكروت */
+  .card, .project-card {
+    width: 100%;
+  }
+
+}
+
+/* ===================== */
+/* SMALL MOBILE (<= 480px) */
+/* ===================== */
+@media (max-width: 480px) {
+
+  body {
+    font-size: 11px;
+  }
+
+  .text h2 {
+    font-size: 20px;
+  }
+
+  .text span {
+    font-size: 1em;
+  }
+
+  .text h3 {
+    font-size: 13px;
+  }
+
+  .code-box {
+    font-size: 10px;
+  }
+
+}
+
+ /* TITLE */
+.title {
+  display: flex;
+  justify-content: center;
+  color: #00bcd4;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+/* CONTENT */
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* CARD */
+.card {
+  background-color: #fff;
+  width: 300px;
+  box-shadow: 0 5px 25px rgba(1,1,1,0.15);
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+/* HOVER  */
+.card:hover {
+  transform: scale(1.1);
+}
+
+/* ICON */
+.ico {
+    text-align: center;
+  font-size: 40px;
+  color: #00bcd4;
+  margin-bottom: 15px;
+}
+
+/* TEXT */
+.info h3 {
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+
+.info p {
+  color: #555;
+  line-height: 1.5;
+}
+.projects {
+  background-color: #000016;
+  padding: 80px 20px;
+}
+
+/* تخلي الكروت جنب بعض */
+.projects .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* الكارت */
+.project-card {
+  background-color: #fff;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.4s ease;
+}
+
+/* hover احترافي */
+.project-card:hover {
+  transform: translateY(-10px) scale(1.05);
+}
+
+/* الصورة */
+.proj-img img {
+  width: 100%;
+  display: block;
+}
+
+/* المعلومات */
+.proj-info {
+  padding: 15px;
+}
+
+.project-category {
+  font-size: 0.8em;
+  color: #555;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.demo {
+  text-decoration: none;
+  color: #3a6cf4;
+}
+
+.demo:hover {
+  color: #601cfc;
+}
+/* CONTACT SECTION */
+.contact {
+  background-color: #0a0a1f;
+  padding: 80px 20px;
+  color: #fff;
+}
+
+.contact .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Contact Info */
+.contact-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+.contact-info a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: #008cff;
+}
+
+.contact-info .icon a {
+  font-size: 1.8em;
+  margin-right: 15px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.contact-info .icon a:hover {
+  color: #00bcd4;
+}
+
+/* Contact Form */
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1em;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form button {
+  padding: 12px 20px;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #008cff;
+  color: #fff;
+}
+
+
